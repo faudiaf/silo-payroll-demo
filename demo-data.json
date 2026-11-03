@@ -1,0 +1,87 @@
+{
+  "company": "Northstar Coaching Studio",
+  "currency": "USD",
+  "period": "November 2026",
+  "people": [
+    {
+      "id": "P-1001",
+      "name": "Avery Morgan",
+      "role": "Head Coach",
+      "status": "Active",
+      "baseMonthly": 4800,
+      "commissionType": "Collected revenue",
+      "commissionRate": 0.08
+    },
+    {
+      "id": "P-1002",
+      "name": "Jordan Lee",
+      "role": "Coach",
+      "status": "Active",
+      "baseMonthly": 2200,
+      "commissionType": "Contracted revenue",
+      "commissionRate": 0.05
+    },
+    {
+      "id": "P-1003",
+      "name": "Taylor Quinn",
+      "role": "Closer",
+      "status": "Active",
+      "baseMonthly": 0,
+      "commissionType": "Contracted revenue",
+      "commissionRate": 0.06
+    },
+    {
+      "id": "P-1004",
+      "name": "Casey Rivera",
+      "role": "Appointment Setter",
+      "status": "Active",
+      "baseMonthly": 0,
+      "commissionType": "Qualified sale",
+      "commissionRate": 0.02
+    },
+    {
+      "id": "P-1005",
+      "name": "Morgan Ellis",
+      "role": "Coach",
+      "status": "Offboarded",
+      "baseMonthly": 1500,
+      "commissionType": "Contracted revenue",
+      "commissionRate": 0.05
+    }
+  ],
+  "collections": [
+    {
+      "id": "COL-001",
+      "client": "Demo Client A",
+      "originalSale": "SALE-101",
+      "originalCloser": "Taylor Quinn",
+      "amount": 1200,
+      "status": "Collected"
+    },
+    {
+      "id": "COL-002",
+      "client": "Demo Client A",
+      "originalSale": "SALE-101",
+      "originalCloser": "Taylor Quinn",
+      "amount": 1200,
+      "status": "Collected"
+    },
+    {
+      "id": "COL-003",
+      "client": "Demo Client B",
+      "originalSale": "SALE-102",
+      "originalCloser": "Taylor Quinn",
+      "amount": 800,
+      "status": "Pending"
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "EX-001",
+      "person": "Morgan Ellis",
+      "type": "Final pay review",
+      "status": "Needs review",
+      "amount": 350
+    }
+  ]
+}
