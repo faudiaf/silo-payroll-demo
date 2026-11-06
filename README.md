@@ -1,4 +1,4 @@
-# SILO — Payroll Operations Demo
+# Payroll Operations Demo
 
 A portfolio-safe demonstration of a configurable payroll operations workspace.
 
